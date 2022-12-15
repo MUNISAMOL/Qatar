@@ -1,0 +1,29 @@
+body,html
+{
+    margin: 0px;
+    padding: 0px;
+}
+h1
+{
+    text-align: center;
+}
+img
+{
+    width: 600px;
+    height: 500px;
+    left: 350px;
+    position: absolute;
+}
+p
+{
+    font-size: 30px;
+    transform: translate(0%,110%);
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    color: white;
+}

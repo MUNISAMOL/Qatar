@@ -1,0 +1,330 @@
+body,html
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(bgg.jpg);
+    margin: 0px;
+    padding: 20px;
+}
+.box
+{
+    top: 45px;
+    left: 45px;
+    position: absolute;
+    background-color: pink;
+    opacity: 0.3;
+    width: 900px;
+    height: 570px;
+    text-align: center;
+    font-size: 25px;
+    font-family: URW Chancery L;
+
+}
+.box h1
+{
+    text-align: center;
+    color: white;
+}
+.box:hover
+{
+    opacity: 1;
+}
+.container
+{
+    background: transparent;
+    position: absolute;
+    width: 390px;
+    height: 390px;
+    top: 11px;
+    left: 970px;
+    border: 0 px solid white;
+
+}
+.container.images
+{
+    background-color: transparent;
+    float: left;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 30px;
+    top: 30px;
+    text-align: center;
+    border: 2px solid rgba(256, 256,256,0.1);
+    overflow: hidden
+    transition:0.5s;
+    border-radius:15px
+    box-shadow:0px 4px 4px white;
+}
+.container.images h2
+{
+    color:w;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    opacity: 5;
+}
+.container.images p
+{
+    top: 40px;
+    position: absolute;
+    color: transparent;
+}
+.container.images:hover
+{
+    background-color: tomato;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}
+.container.images:hover p
+{
+    color: white;
+}
+.container.images:hover h2
+{
+    position: absolute;
+    top: 10px;
+    color: transparent;
+}
+.container.souq
+{
+    background-color: transparent;
+    float: left;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 60px;
+    top: 30px;
+    text-align: center;
+    border: 2px solid rgba(256,256,256,0.1);
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px white;
+}
+.container.souq h2
+{
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 23px;
+    opacity: 0.5;
+}.container.souq p
+{
+    top: 70px;
+    position: absolute;
+    color: transparent;
+}
+.container.souq:hover
+{
+    background-color: yellowgreen;
+    width: 160px;
+    height: 210px;
+    border-radius: 15px;
+}
+.container.souq:hover p
+{
+    color: white;
+}
+.container.souq:hover h2
+{
+    position: absolute;
+    top: 10px;
+    color: transparent;
+}
+.container.museum
+{
+    background-color: transparent;
+    float: left;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 30px;
+    top: 460px;
+    text-align: center;
+    border: 2px solid rgba(256, 256,256,0.1);
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px white;
+}
+.container.museum h2
+{
+    color: white;
+    position: absolute;
+    top: -7px;
+    left: 15px;
+    opacity: 0.5;
+}
+.container.museum p
+{
+    top: -2px;
+    position: absolute;
+    color: transparent;
+}
+.container.museum:hover
+{
+    background-color: #47E3B0;
+    width: 160px;
+    height: 60px;
+    border-radius: 10px;
+}
+.container.museum:hover p
+{
+    color: white;
+}
+.container.museum:hover h2
+{
+    position: absolute;
+    top: 10px;
+    color: transparent;
+}
+.container.pearl
+{
+    background-color: transparent;
+    float: left;
+    position: absolute;
+    width: 150px;
+    height: 220px;
+    left: 30px;
+    top: 210px;
+    text-align: center;
+    border: 2px solid rgba(256, 256,256,0.1);
+    overflow: hidden
+    transition:0.5s;
+    border-radius:15px;
+    box-shadow:0px 4px 4px white;
+}
+.container.pearl h2
+{
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    opacity: 0.5;
+}
+.container.pearl p
+{
+    top: 80px;
+    position: absolute;
+    color: transparent;
+}
+.container.pearl:hover
+{
+    background-color: #F5809E;
+    width: 160px;
+    height: 230px;
+    border-radius: 10px;
+}
+.container.pearl:hover p
+{
+    color: white;
+}
+.container.pearl:hover h2
+{
+    position: absolute;
+    top: 10px;
+    color: transparent;
+}
+.container.villaggio
+{
+    background-color: transparent;
+    float: left;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    left: 210px;
+    top: 260px;
+    text-align: center;
+    border: 2px solid rgba(256,256,256,0.1);
+    overflow: hidden
+    transition: 0.5s;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px white;
+
+}
+.container.villaggio h2
+{
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    opacity: 0.5;
+}
+.container.villaggio p
+{
+    top: 30px;
+    position: absolute;
+    color: transparent;
+
+}
+.container.villaggio:hover
+{
+    background-color: red;
+    width: 160px;
+    height: 110px;
+    border-radius: 10px;
+}
+.container.vilaggio:hover p
+{
+    color: white;
+}
+.container.villaggio:hover h2
+{
+    position: absolute;
+    top: 10px;
+    color: transparent;
+}
+.container.library
+{
+    background-color: transparent;
+    float: left;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    left: 210px;
+    top: 400px;
+    text-align: center;
+    border: 2px solid rgba(256, 256,256,0.1);
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px white;
+}
+.container.library h2
+{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    opacity: 0.5;
+}
+.container.library p
+{
+    top: 20px;
+    position: absolute;
+    color: transparent;
+
+}
+.container.library:hover
+{
+    background-color: #257DAF;
+    width: 160px;
+    height: 110px;
+    border-radius: 15px;
+}
+.container.library:hover p
+{
+    color: white;
+}
+.container.library:hover h2
+{
+    position: absolute;
+    top: 10px;
+    color: transparent;
+}
+a
+{
+    color:#f3ca20;
+}

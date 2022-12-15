@@ -1,0 +1,80 @@
+html,body
+{
+    margin:0px;
+    padding: 0px;
+    background: url(bg.jpg); no-repeat center center fixed;
+    background-size: cover;
+}
+.box
+{
+    margin: 0px;
+    padding: 0px;
+    width: 1000px;
+    height: 20px;
+    background-color: black;
+    top: 200px;
+    left: 220px;
+    position: absolute;
+    border-bottom: 7px solid white;
+    animation: reveal 2s linear normal forwards;
+}
+h1
+{
+    position: absolute;
+    top: 130 px;
+    left: 500px;
+    text-stroke:black;
+    font-size: 100px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    animation: text 2s;
+}
+@keyframes text
+{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes reveal
+{
+    0%{width: 0px;height: 0px;}
+    100%{width: 950px;height: 0px;}
+}
+.button
+{
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid grey;
+    top: 225px;
+    left: 580px;
+    width: 200px;
+    height: 58px;
+    text-align: center;
+    position: absolute;
+    background-color: transparent;
+    border-radius: 15%;
+    animation: button 5s;
+}
+@keyframes button
+{
+    0%{opacity: 0;}
+    20%{opacity: 0;}
+    40%{opacity: 0;}
+    60%{opacity: 0.5;}
+    80%{opacity: 0.75;}
+    100%{opacity: 1;}
+}
+.button:hover
+{
+    background-color: white;
+    font-color:black;
+}
+a:link
+{
+    text-decoration: none;
+    color: grey;
+}
+h2
+{
+    font-size: 20px;
+}
